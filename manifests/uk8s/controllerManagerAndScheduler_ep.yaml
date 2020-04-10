@@ -3,7 +3,7 @@ apiVersion: v1
 kind: Endpoints                                                                                                                    
 metadata:                                                                                                                          
   labels:                                                                                                                          
-    k8s-app: kube-controller-manager                                                                                               
+    k8s-app: kube-controller-manager-manual                                                                                               
   name: kube-controller-manager                                                                                                    
   namespace: kube-system                                                                                                           
 subsets:                                                                                                                           
@@ -30,7 +30,7 @@ apiVersion: v1
 kind: Endpoints                                                                                                                    
 metadata:                                                                                                                          
   labels:                                                                                                                          
-    k8s-app: kube-scheduler                                                                                                        
+    k8s-app: kube-scheduler-manual                                                                                                        
   name: kube-scheduler                                                                                                             
   namespace: kube-system                                                                                                           
 subsets:                                                                                                                           
